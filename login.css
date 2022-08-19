@@ -1,0 +1,67 @@
+html{
+    margin: 0;
+}
+.main-div{
+    display: flex;
+}
+.pic-div{
+    width: 40%;
+}
+#plant{
+    width: 100%;
+}
+#logo{
+    width: 15%;
+    margin-left: 25%;
+}
+#logo-text{
+    background-color: rgba(255, 255, 255, 0.26);
+    font-family: times;
+    font-size: 60px;
+    justify-content: flex-start;
+    color: white;
+    margin-top: -120%;
+}
+.words-div{
+    width: 60%;
+}
+.words-div h4{
+    font-size: 18px;
+    width: 75%;
+    margin-left: 5%;
+    font-family: sans-serif;
+    margin-bottom: 0.5in;
+}
+.main-div #lets{
+    font-weight: bold;
+    font-size: 18px;   
+     margin-left: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main-div p{
+    margin-left: 5%;
+    font-size: 14px;
+}
+input[type=text], input[type=password], input[type=number], input[type=email]{
+    margin-right: 20px;
+    border-style: light;
+    border-top: none;
+    border-left:none;
+    border-color: #E5E7EB;
+    padding: 5px 20px;
+}
+input[type=submit]{
+    padding: 8px 20px;
+    background-color: #596D48;
+    border-style: none;
+    margin-left: 5%;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+form{
+    padding: 20px;
+    padding-top: 0;
+    box-shadow:rgb(211, 204, 204) 0 2px ;
+}
